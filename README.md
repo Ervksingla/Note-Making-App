@@ -1,21 +1,12 @@
 # What is this?
-This is my first attempt at making a form app with C#. It is completely useless, as it does not save data once closed(hence *temporary* note-taking app), but could have some use, nevertheless. 
+This is my project at making a form app with C# and .net technology in which A Note can be prepared by adding Title, Description and Creation Date and save it. It is much useful, as it saves data in Sql table, so one could access the data even after closing the application. 
 
-Btw this was inspired by [this](https://www.youtube.com/watch?v=8vAx0kObdps) video. If the video is down ask me for a torrent/download of it or something, or look it up on archive.org.
+#How it works?
+This application provides user friendly environment as all the values can be filed easily with tab and enter key without draging mouse keys much.
+Firstly a datepicker is present which automatically get current date, then Textbox for -Title focuses and on pressing enter it focuses on -Description box and after focus goes on save and data will be saved by Save btn.
+The data will be save in Sql Table and also displays it in datagrid present there through which you can access or see the list of notes with dates.
 
-# How do I compile this if I want to use it, even though it is completely useless?
-I suggest you just open the .sln solution file in Visual Studio and it will auto-compile the project for you. 😉
-
-# How to make it auto-compile because I am stoopid :^)?
-Press the green run button at the top 🙂.
-
-# I don't want to compile because too lazy 🤡 so where is polished executable?
-🤡🤡🤡 You know what, saaaaaaaaaaame. 😅 *Anyhow* you can fined a polished executable, with version information and icon injected via Resource Hacker already included in the repository, or you can find the "formal release" in the releases section. 🤣 Thanks for taking a look. Note that it is ***not*** code-signed, meaning that *yes*, your antivirus will make a big fuss out of it. Mark it as safe to prevent issues with your antivirus. That's why it's a better idea to compile it yourself, since that way, your antivirus will recongnise that, *oh, the local computer made it*, and not block it or something.
-
-# Why is it not an unlicense this time?
-Because I actually spent time and effort into this one 🤣🤡🤣 so, similar to a few of my PowerShell repositories, please credit me when referencing, sharing, or doing something with this at the right times 😔. Please 😥.
+There present Read, New, Save and Delete button.
 
 # Conclusion...
-Have fun with this useless project! 😃
-
-One more thing: If you click read or delete when there is no saved note, there will be an error, as there is no note to read or delete. Idk how do fix, so please ignore 😔.
+It will help to store the short notes on daily basis and analysis and access whenever needed.
